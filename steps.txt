@@ -1,0 +1,43 @@
+First, I created a repo on GitHub
+Then, I created a directory called basic_repo on my folder
+Then I initialized git using git init
+I used copy NUL to create two new .txt files
+After that, I wrote the following commands:
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> git add .
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   interests.txt
+        new file:   simple.txt
+
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> git commit -m "added files to repository"
+[master (root-commit) 8c63549] added files to repository
+ 2 files changed, 4 insertions(+)
+ create mode 100644 interests.txt
+ create mode 100644 simple.txt
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> git remote add origin https://github.com/greatwhiteguppy/basic_repo.git
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo>git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 430 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+Branch master set up to track remote branch master from origin.
+To https://github.com/greatwhiteguppy/basic_repo.git
+ * [new branch]      master -> master
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> copy NUL steps.txt
+        1 file(s) copied.
+
+C:\Users\Sammi\Desktop\DojoAssignments\WebFundamentals\Git\basic_repo> atom steps.txt
+
+That takes us up to this document.
